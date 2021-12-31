@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "HTH",
+    "HHH",
+    "HHH"
+  ],
+  "key": {
+    "T": {
+      "item": "thiamod:bcoin"
+    },
+    "H": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "result": {
+    "item": "thiamod:peitoral_de_bcoin"
+  }
+}

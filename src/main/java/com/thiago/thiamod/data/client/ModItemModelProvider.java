@@ -14,14 +14,22 @@ public class ModItemModelProvider extends ItemModelProvider {
 
     @Override
     protected void registerModels() {
+        //Blocos
         withExistingParent("bloco_de_batata", modLoc("block/bloco_de_batata"));
 
         ModelFile itemGenerated = getExistingFile(mcLoc("item/generated"));
 
+        //Itens
         builder(itemGenerated, "carvaozinho");
         builder(itemGenerated, "bcoin");
         builder(itemGenerated, "batata_sagrada");
         builder(itemGenerated, "batata_dourada");
+
+        //Ferramentas
+        builder(itemGenerated, "picareta_de_bttsa");
+
+        //Armaduras
+        builder(itemGenerated, "peitoral_de_bcoin");
     }
 
     private ItemModelBuilder builder(ModelFile itemGenerated, String name) {

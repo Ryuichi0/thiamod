@@ -3,6 +3,10 @@
   "item.thiamod.bcoin": "BCoin",
   "item.thiamod.batata_sagrada": "Batata Sagrada",
   "item.thiamod.batata_dourada": "Batata dourada",
+  "item.thiamod.picareta_de_bttsa": "Picareta de Batata Sagrada",
+  "item.thiamod.peitoral_de_bcoin": "Peitoral de BCoin",
 
-  "block.thiamod.bloco_de_batata": "Bloco de batata"
+  "block.thiamod.bloco_de_batata": "Bloco de batata",
+
+  "itemGroup.thiamod": "ThiaMod"
 }

@@ -1,0 +1,34 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "thiamod:peitoral_de_bcoin"
+    ]
+  },
+  "criteria": {
+    "has_material ": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "thiamod:bcoin"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "thiamod:peitoral_de_bcoin"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_material ",
+      "has_the_recipe"
+    ]
+  ]
+}

@@ -47,6 +47,23 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .pattern("IHI")
                 .unlockedBy("has_material ", has(ModBlocks.BLOCO_DE_BATATA.get()))
                 .save(consumer);
+        ShapedRecipeBuilder.shaped(ModItems.PICARETA_DE_BTTSA.get())
+                .define('T', ModItems.BATATA_SAGRADA.get())
+                .define('H', Items.STICK)
+                .pattern("TTT")
+                .pattern(" H ")
+                .pattern(" H ")
+                .unlockedBy("has_material ", has(ModItems.BATATA_SAGRADA.get()))
+                .save(consumer);
+        ShapedRecipeBuilder.shaped(ModItems.PEITORAL_DE_BCOIN.get())
+                        .define('T', ModItems.BCOIN.get())
+                        .define('H', Items.IRON_INGOT)
+                        .pattern("HTH")
+                        .pattern("HHH")
+                        .pattern("HHH")
+                        .unlockedBy("has_material ", has(ModItems.BCOIN.get()))
+                        .save(consumer);
+
 
         //Shapeless
         ShapelessRecipeBuilder.shapeless(Items.COAL)

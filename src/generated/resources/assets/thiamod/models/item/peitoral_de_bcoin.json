@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "thiamod:item/peitoral_de_bcoin"
+  }
+}

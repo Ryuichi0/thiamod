@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "TTT",
+    " H ",
+    " H "
+  ],
+  "key": {
+    "T": {
+      "item": "thiamod:batata_sagrada"
+    },
+    "H": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "thiamod:picareta_de_bttsa"
+  }
+}
