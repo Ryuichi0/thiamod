@@ -1,20 +1,19 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    " g ",
-    "gTg",
-    " g "
+    " H ",
+    "HTH",
+    " H "
   ],
   "key": {
-    "g": {
-      "item": "minecraft:gold_ingot"
-    },
     "T": {
       "item": "minecraft:tnt"
+    },
+    "H": {
+      "item": "minecraft:gold_ingot"
     }
   },
   "result": {
-    "item": "thiamod:bcoin",
-    "count": 1
+    "item": "thiamod:bcoin"
   }
 }

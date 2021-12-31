@@ -1,0 +1,34 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "thiamod:batata_sagrada"
+    ]
+  },
+  "criteria": {
+    "has_material ": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "thiamod:bloco_de_batata"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "thiamod:batata_sagrada"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_material ",
+      "has_the_recipe"
+    ]
+  ]
+}

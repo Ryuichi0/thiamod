@@ -2,11 +2,11 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:coal"
+      "item": "thiamod:bloco_de_batata"
     }
   ],
   "result": {
-    "item": "thiamod:carvaozinho",
-    "count": 8
+    "item": "minecraft:potato",
+    "count": 9
   }
 }

@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "IHI",
+    "HTH",
+    "IHI"
+  ],
+  "key": {
+    "T": {
+      "item": "thiamod:bloco_de_batata"
+    },
+    "H": {
+      "item": "minecraft:amethyst_shard"
+    },
+    "I": {
+      "item": "minecraft:diamond"
+    }
+  },
+  "result": {
+    "item": "thiamod:batata_sagrada"
+  }
+}

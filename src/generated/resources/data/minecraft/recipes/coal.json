@@ -24,10 +24,12 @@
     },
     {
       "item": "thiamod:carvaozinho"
+    },
+    {
+      "item": "thiamod:carvaozinho"
     }
   ],
   "result": {
-    "item": "minecraft:coal",
-    "count": 1
+    "item": "minecraft:coal"
   }
 }

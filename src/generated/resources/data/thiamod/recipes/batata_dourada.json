@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "HHH",
+    "HTH",
+    "HHH"
+  ],
+  "key": {
+    "T": {
+      "item": "minecraft:potato"
+    },
+    "H": {
+      "item": "minecraft:gold_ingot"
+    }
+  },
+  "result": {
+    "item": "thiamod:batata_dourada"
+  }
+}
