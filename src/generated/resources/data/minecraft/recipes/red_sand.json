@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "thiamod:bloco_areia_vermelha_compactado"
+    }
+  ],
+  "result": {
+    "item": "minecraft:red_sand",
+    "count": 9
+  }
+}

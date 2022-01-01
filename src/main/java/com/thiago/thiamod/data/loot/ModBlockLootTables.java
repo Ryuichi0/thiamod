@@ -10,6 +10,18 @@ public class ModBlockLootTables extends BlockLoot {
     @Override
     protected void addTables() {
         dropSelf(ModBlocks.BLOCO_DE_BATATA.get());
+        dropSelf(ModBlocks.BLOCO_PEDREGULHO_COMPACTADO.get());
+        dropSelf(ModBlocks.BLOCO_PEDREGULHO_ARDOSIA_COMPACTADO.get());
+        dropSelf(ModBlocks.BLOCO_TUFO_COMPACTADO.get());
+        dropSelf(ModBlocks.BLOCO_GRANITO_COMPACTADO.get());
+        dropSelf(ModBlocks.BLOCO_DIORITO_COMPACTADO.get());
+        dropSelf(ModBlocks.BLOCO_ARDESITO_COMPACTADO.get());
+        dropSelf(ModBlocks.BLOCO_CALCITA_COMPACTADO.get());
+        dropSelf(ModBlocks.BLOCO_TERRA_COMPACTADO.get());
+        dropSelf(ModBlocks.BLOCO_AREIA_COMPACTADO.get());
+        dropSelf(ModBlocks.BLOCO_AREIA_VERMELHA_COMPACTADO.get());
+        dropSelf(ModBlocks.BLOCO_CASCALHO_COMPACTADO.get());
+
     }
 
     @Override

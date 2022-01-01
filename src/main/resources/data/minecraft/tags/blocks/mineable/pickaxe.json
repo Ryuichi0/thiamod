@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    "thiamod:bloco_pedregulho_compactado",
+    "thiamod:bloco_pedregulho_ardosia_compactado",
+    "thiamod:bloco_tufo_compactado",
+    "thiamod:bloco_granito_compactado",
+    "thiamod:bloco_diorito_compactado",
+    "thiamod:bloco_ardesito_compactado",
+    "thiamod:bloco_calcita_compactado"
+
+  ]
+}

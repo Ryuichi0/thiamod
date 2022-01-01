@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "thiamod:bloco_ardesito_compactado"
+    }
+  ],
+  "result": {
+    "item": "minecraft:andesite",
+    "count": 9
+  }
+}

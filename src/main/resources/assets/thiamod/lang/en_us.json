@@ -7,6 +7,18 @@
   "item.thiamod.peitoral_de_bcoin": "Peitoral de BCoin",
 
   "block.thiamod.bloco_de_batata": "Bloco de batata",
+  "block.thiamod.bloco_pedregulho_compactado": "Bloco de pedregulho compactado",
+  "block.thiamod.bloco_pedregulho_ardosia_compactado": "Bloco de pedredulho de ardósia compactado",
+  "block.thiamod.bloco_tufo_compactado": "Bloco de tufo compactado",
+  "block.thiamod.bloco_granito_compactado": "Bloco de granito compactado",
+  "block.thiamod.bloco_diorito_compactado": "Bloco de diorito compactado",
+  "block.thiamod.bloco_ardesito_compactado": "Bloco de ardesito compactado",
+  "block.thiamod.bloco_calcita_compactado": "Bloco de calcita compactado",
+  "block.thiamod.bloco_terra_compactado": "Bloco de terra compactado",
+  "block.thiamod.bloco_areia_compactado": "Bloco de areia compactado",
+  "block.thiamod.bloco_areia_vermelha_compactado": "Bloco de areia vermelha compactado",
+  "block.thiamod.bloco_cascalho_compactado": "Bloco de cascalho compactado",
+
 
   "itemGroup.thiamod": "ThiaMod"
 }

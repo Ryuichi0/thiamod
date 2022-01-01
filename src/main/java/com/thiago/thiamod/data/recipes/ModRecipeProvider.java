@@ -56,21 +56,20 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .unlockedBy("has_material ", has(ModItems.BATATA_SAGRADA.get()))
                 .save(consumer);
         ShapedRecipeBuilder.shaped(ModItems.PEITORAL_DE_BCOIN.get())
-                        .define('T', ModItems.BCOIN.get())
-                        .define('H', Items.IRON_INGOT)
-                        .pattern("HTH")
-                        .pattern("HHH")
-                        .pattern("HHH")
-                        .unlockedBy("has_material ", has(ModItems.BCOIN.get()))
-                        .save(consumer);
+                .define('T', ModItems.BCOIN.get())
+                .define('H', Items.IRON_INGOT)
+                .pattern("HTH")
+                .pattern("HHH")
+                .pattern("HHH")
+                .unlockedBy("has_material ", has(ModItems.BCOIN.get()))
+                .save(consumer);
 
-
-        //Shapeless
+        //---Shapeless
         ShapelessRecipeBuilder.shapeless(Items.COAL)
-                .requires(ModItems.CARVAOZINHO.get(), 9)
+                .requires(ModItems.CARVAOZINHO.get(), 8)
                 .unlockedBy("has_material ", has(ModItems.CARVAOZINHO.get()))
                 .save(consumer);
-        ShapelessRecipeBuilder.shapeless(ModItems.CARVAOZINHO.get(), 9)
+        ShapelessRecipeBuilder.shapeless(ModItems.CARVAOZINHO.get(), 8)
                 .requires(Items.COAL)
                 .unlockedBy("has_material ", has(Items.COAL))
                 .save(consumer);
@@ -78,6 +77,54 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .requires(ModBlocks.BLOCO_DE_BATATA.get())
                 .unlockedBy("has_material ", has(Items.POTATO))
                 .save(consumer);
+        ShapelessRecipeBuilder.shapeless(Items.COBBLESTONE, 9)
+                .requires(ModBlocks.BLOCO_PEDREGULHO_COMPACTADO.get())
+                .unlockedBy("has_material ", has(Items.COBBLESTONE))
+                .save(consumer);
+        ShapelessRecipeBuilder.shapeless(Items.COBBLED_DEEPSLATE, 9)
+                .requires(ModBlocks.BLOCO_PEDREGULHO_ARDOSIA_COMPACTADO.get())
+                .unlockedBy("has_material ", has(Items.COBBLED_DEEPSLATE))
+                .save(consumer);
+
+        ShapelessRecipeBuilder.shapeless(Items.TUFF, 9)
+                .requires(ModBlocks.BLOCO_TUFO_COMPACTADO.get())
+                .unlockedBy("has_material ", has(Items.TUFF))
+                .save(consumer);
+        ShapelessRecipeBuilder.shapeless(Items.GRANITE, 9)
+                .requires(ModBlocks.BLOCO_GRANITO_COMPACTADO.get())
+                .unlockedBy("has_material ", has(Items.GRANITE))
+                .save(consumer);
+        ShapelessRecipeBuilder.shapeless(Items.DIORITE, 9)
+                .requires(ModBlocks.BLOCO_DIORITO_COMPACTADO.get())
+                .unlockedBy("has_material ", has(Items.DIORITE))
+                .save(consumer);
+        ShapelessRecipeBuilder.shapeless(Items.ANDESITE, 9)
+                .requires(ModBlocks.BLOCO_ARDESITO_COMPACTADO.get())
+                .unlockedBy("has_material ", has(Items.ANDESITE))
+                .save(consumer);
+        ShapelessRecipeBuilder.shapeless(Items.CALCITE, 9)
+                .requires(ModBlocks.BLOCO_CALCITA_COMPACTADO.get())
+                .unlockedBy("has_material ", has(Items.CALCITE))
+                .save(consumer);
+        ShapelessRecipeBuilder.shapeless(Items.DIRT, 9)
+                .requires(ModBlocks.BLOCO_TERRA_COMPACTADO.get())
+                .unlockedBy("has_material ", has(Items.DIRT))
+                .save(consumer);
+        ShapelessRecipeBuilder.shapeless(Items.SAND, 9)
+                .requires(ModBlocks.BLOCO_AREIA_COMPACTADO.get())
+                .unlockedBy("has_material ", has(Items.SAND))
+                .save(consumer);
+        ShapelessRecipeBuilder.shapeless(Items.RED_SAND, 9)
+                .requires(ModBlocks.BLOCO_AREIA_VERMELHA_COMPACTADO.get())
+                .unlockedBy("has_material ", has(Items.RED_SAND))
+                .save(consumer);
+        ShapelessRecipeBuilder.shapeless(Items.GRAVEL, 9)
+                .requires(ModBlocks.BLOCO_CASCALHO_COMPACTADO.get())
+                .unlockedBy("has_material ", has(Items.GRAVEL))
+                .save(consumer);
+
+
+
 
         //Blocos
         //---Shaped
@@ -85,6 +132,51 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
         ShapelessRecipeBuilder.shapeless(ModBlocks.BLOCO_DE_BATATA.get())
                 .requires(Items.POTATO, 9)
                 .unlockedBy("has_material ", has(Items.POTATO))
+                .save(consumer);
+        ShapelessRecipeBuilder.shapeless(ModBlocks.BLOCO_PEDREGULHO_COMPACTADO.get())
+                .requires(Items.COBBLESTONE, 9)
+                .unlockedBy("has_material ", has(Items.COBBLESTONE))
+                .save(consumer);
+        ShapelessRecipeBuilder.shapeless(ModBlocks.BLOCO_PEDREGULHO_ARDOSIA_COMPACTADO.get())
+                .requires(Items.COBBLED_DEEPSLATE, 9)
+                .unlockedBy("has_material ", has(Items.COBBLED_DEEPSLATE))
+                .save(consumer);
+
+        ShapelessRecipeBuilder.shapeless(ModBlocks.BLOCO_TUFO_COMPACTADO.get())
+                .requires(Items.TUFF, 9)
+                .unlockedBy("has_material ", has(Items.TUFF))
+                .save(consumer);
+        ShapelessRecipeBuilder.shapeless(ModBlocks.BLOCO_GRANITO_COMPACTADO.get())
+                .requires(Items.GRANITE, 9)
+                .unlockedBy("has_material ", has(Items.GRANITE))
+                .save(consumer);
+        ShapelessRecipeBuilder.shapeless(ModBlocks.BLOCO_DIORITO_COMPACTADO.get())
+                .requires(Items.DIORITE, 9)
+                .unlockedBy("has_material ", has(Items.DIORITE))
+                .save(consumer);
+        ShapelessRecipeBuilder.shapeless(ModBlocks.BLOCO_ARDESITO_COMPACTADO.get())
+                .requires(Items.ANDESITE, 9)
+                .unlockedBy("has_material ", has(Items.ANDESITE))
+                .save(consumer);
+        ShapelessRecipeBuilder.shapeless(ModBlocks.BLOCO_CALCITA_COMPACTADO.get())
+                .requires(Items.CALCITE, 9)
+                .unlockedBy("has_material ", has(Items.CALCITE))
+                .save(consumer);
+        ShapelessRecipeBuilder.shapeless(ModBlocks.BLOCO_TERRA_COMPACTADO.get())
+                .requires(Items.DIRT, 9)
+                .unlockedBy("has_material ", has(Items.DIRT))
+                .save(consumer);
+        ShapelessRecipeBuilder.shapeless(ModBlocks.BLOCO_AREIA_COMPACTADO.get())
+                .requires(Items.SAND, 9)
+                .unlockedBy("has_material ", has(Items.SAND))
+                .save(consumer);
+        ShapelessRecipeBuilder.shapeless(ModBlocks.BLOCO_AREIA_VERMELHA_COMPACTADO.get())
+                .requires(Items.RED_SAND, 9)
+                .unlockedBy("has_material ", has(Items.RED_SAND))
+                .save(consumer);
+        ShapelessRecipeBuilder.shapeless(ModBlocks.BLOCO_CASCALHO_COMPACTADO.get())
+                .requires(Items.GRAVEL, 9)
+                .unlockedBy("has_material ", has(Items.GRAVEL))
                 .save(consumer);
 
     }
