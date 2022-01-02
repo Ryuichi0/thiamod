@@ -2,11 +2,11 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "item": "thiamod:bloco_pedregulho_ardosia_compactado"
+      "item": "thiamod:4x_pedregulho_ardosia"
     }
   ],
   "result": {
     "item": "minecraft:cobbled_deepslate",
-    "count": 9
+    "count": 4
   }
 }

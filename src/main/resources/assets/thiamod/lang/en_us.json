@@ -7,17 +7,17 @@
   "item.thiamod.peitoral_de_bcoin": "Peitoral de BCoin",
 
   "block.thiamod.bloco_de_batata": "Bloco de batata",
-  "block.thiamod.bloco_pedregulho_compactado": "Bloco de pedregulho compactado",
-  "block.thiamod.bloco_pedregulho_ardosia_compactado": "Bloco de pedredulho de ardósia compactado",
-  "block.thiamod.bloco_tufo_compactado": "Bloco de tufo compactado",
-  "block.thiamod.bloco_granito_compactado": "Bloco de granito compactado",
-  "block.thiamod.bloco_diorito_compactado": "Bloco de diorito compactado",
-  "block.thiamod.bloco_ardesito_compactado": "Bloco de ardesito compactado",
-  "block.thiamod.bloco_calcita_compactado": "Bloco de calcita compactado",
-  "block.thiamod.bloco_terra_compactado": "Bloco de terra compactado",
-  "block.thiamod.bloco_areia_compactado": "Bloco de areia compactado",
-  "block.thiamod.bloco_areia_vermelha_compactado": "Bloco de areia vermelha compactado",
-  "block.thiamod.bloco_cascalho_compactado": "Bloco de cascalho compactado",
+  "block.thiamod.4x_pedregulho": "4x pedregulho",
+  "block.thiamod.4x_pedregulho_ardosia": "4x pedredulho de ardósia",
+  "block.thiamod.4x_tufo": "4x tufo",
+  "block.thiamod.4x_granito": "4x granito",
+  "block.thiamod.4x_diorito": "4x diorito",
+  "block.thiamod.4x_ardesito": "4x ardesito",
+  "block.thiamod.4x_calcita": "4x calcita",
+  "block.thiamod.4x_terra": "4x terra",
+  "block.thiamod.4x_areia": "4x areia",
+  "block.thiamod.4x_areia_vermelha": "4x areia vermelha",
+  "block.thiamod.4x_cascalho": "4x cascalho",
 
 
   "itemGroup.thiamod": "ThiaMod"

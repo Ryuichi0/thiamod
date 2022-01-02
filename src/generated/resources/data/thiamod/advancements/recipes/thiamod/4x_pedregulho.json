@@ -1,0 +1,34 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "thiamod:4x_pedregulho"
+    ]
+  },
+  "criteria": {
+    "has_material ": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:cobblestone"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "thiamod:4x_pedregulho"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_material ",
+      "has_the_recipe"
+    ]
+  ]
+}

@@ -2,11 +2,11 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "item": "thiamod:bloco_tufo_compactado"
+      "item": "thiamod:4x_tufo"
     }
   ],
   "result": {
     "item": "minecraft:tuff",
-    "count": 9
+    "count": 4
   }
 }

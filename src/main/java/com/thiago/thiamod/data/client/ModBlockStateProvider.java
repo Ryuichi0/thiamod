@@ -14,17 +14,17 @@ public class ModBlockStateProvider extends BlockStateProvider {
     @Override
     protected void registerStatesAndModels() {
         simpleBlock(ModBlocks.BLOCO_DE_BATATA.get());
-        simpleBlock(ModBlocks.BLOCO_PEDREGULHO_COMPACTADO.get());
-        simpleBlock(ModBlocks.BLOCO_PEDREGULHO_ARDOSIA_COMPACTADO.get());
-        simpleBlock(ModBlocks.BLOCO_TUFO_COMPACTADO.get());
-        simpleBlock(ModBlocks.BLOCO_GRANITO_COMPACTADO.get());
-        simpleBlock(ModBlocks.BLOCO_DIORITO_COMPACTADO.get());
-        simpleBlock(ModBlocks.BLOCO_ARDESITO_COMPACTADO.get());
-        simpleBlock(ModBlocks.BLOCO_CALCITA_COMPACTADO.get());
-        simpleBlock(ModBlocks.BLOCO_TERRA_COMPACTADO.get());
-        simpleBlock(ModBlocks.BLOCO_AREIA_COMPACTADO.get());
-        simpleBlock(ModBlocks.BLOCO_AREIA_VERMELHA_COMPACTADO.get());
-        simpleBlock(ModBlocks.BLOCO_CASCALHO_COMPACTADO.get());
+        simpleBlock(ModBlocks.IV_PEDREGULHO.get());
+        simpleBlock(ModBlocks.IV_PEDREGULHO_ARDOSIA.get());
+        simpleBlock(ModBlocks.IV_TUFO.get());
+        simpleBlock(ModBlocks.IV_GRANITO.get());
+        simpleBlock(ModBlocks.IV_DIORITO.get());
+        simpleBlock(ModBlocks.IV_ARDESITO.get());
+        simpleBlock(ModBlocks.IV_CALCITA.get());
+        simpleBlock(ModBlocks.IV_TERRA.get());
+        simpleBlock(ModBlocks.IV_AREIA.get());
+        simpleBlock(ModBlocks.IV_AREIA_VERMELHA.get());
+        simpleBlock(ModBlocks.IV_CASCALHO.get());
 
 
     }

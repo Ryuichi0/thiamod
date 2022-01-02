@@ -2,11 +2,11 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "item": "thiamod:bloco_granito_compactado"
+      "item": "thiamod:4x_granito"
     }
   ],
   "result": {
     "item": "minecraft:granite",
-    "count": 9
+    "count": 4
   }
 }

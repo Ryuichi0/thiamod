@@ -4,6 +4,8 @@ import com.thiago.thiamod.ThiaMod;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.block.Blocks;
+import net.minecraft.world.level.block.FallingBlock;
 import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.material.Material;
@@ -18,51 +20,48 @@ public class ModBlocks {
             () -> new Block(BlockBehaviour.Properties.of(Material.VEGETABLE, MaterialColor.COLOR_YELLOW)
                     .strength(4.0F)
                     .sound(SoundType.FUNGUS)));
-    public static final RegistryObject<Block> BLOCO_PEDREGULHO_COMPACTADO = register("bloco_pedregulho_compactado",
+    public static final RegistryObject<Block> IV_PEDREGULHO = register("4x_pedregulho",
             () -> new Block(BlockBehaviour.Properties.of(Material.STONE, MaterialColor.STONE)
                     .strength(4.0F, 7.0F)
                     .sound(SoundType.STONE)));
 
-    public static final RegistryObject<Block> BLOCO_PEDREGULHO_ARDOSIA_COMPACTADO = register("bloco_pedregulho_ardosia_compactado",
+    public static final RegistryObject<Block> IV_PEDREGULHO_ARDOSIA = register("4x_pedregulho_ardosia",
             () -> new Block(BlockBehaviour.Properties.of(Material.STONE, MaterialColor.DEEPSLATE)
                     .strength(7.0F, 7.0F)
                     .sound(SoundType.DEEPSLATE)));
-    public static final RegistryObject<Block> BLOCO_TUFO_COMPACTADO = register("bloco_tufo_compactado",
+    public static final RegistryObject<Block> IV_TUFO = register("4x_tufo",
             () -> new Block(BlockBehaviour.Properties.of(Material.STONE, MaterialColor.TERRACOTTA_GRAY)
                     .strength(3.0F, 7.0F)
                     .sound(SoundType.TUFF)));
-    public static final RegistryObject<Block> BLOCO_GRANITO_COMPACTADO = register("bloco_granito_compactado",
+    public static final RegistryObject<Block> IV_GRANITO = register("4x_granito",
             () -> new Block(BlockBehaviour.Properties.of(Material.STONE, MaterialColor.DIRT)
                     .strength(3.0F, 7.0F)
                     .sound(SoundType.STONE)));
-    public static final RegistryObject<Block> BLOCO_DIORITO_COMPACTADO = register("bloco_diorito_compactado",
+    public static final RegistryObject<Block> IV_DIORITO = register("4x_diorito",
             () -> new Block(BlockBehaviour.Properties.of(Material.STONE, MaterialColor.QUARTZ)
                     .strength(3.0F, 7.0F)
                     .sound(SoundType.STONE)));
-    public static final RegistryObject<Block> BLOCO_ARDESITO_COMPACTADO = register("bloco_ardesito_compactado",
+    public static final RegistryObject<Block> IV_ARDESITO = register("4x_ardesito",
             () -> new Block(BlockBehaviour.Properties.of(Material.STONE, MaterialColor.STONE)
                     .strength(3.0F, 7.0F)
                     .sound(SoundType.STONE)));
-    public static final RegistryObject<Block> BLOCO_CALCITA_COMPACTADO = register("bloco_calcita_compactado",
+    public static final RegistryObject<Block> IV_CALCITA = register("4x_calcita",
             () -> new Block(BlockBehaviour.Properties.of(Material.STONE, MaterialColor.TERRACOTTA_WHITE)
                     .strength(1.5F, 1.0F)
                     .sound(SoundType.CALCITE)));
-    public static final RegistryObject<Block> BLOCO_TERRA_COMPACTADO = register("bloco_terra_compactado",
+    public static final RegistryObject<Block> IV_TERRA = register("4x_terra",
             () -> new Block(BlockBehaviour.Properties.of(Material.DIRT, MaterialColor.DIRT)
                     .strength(1.0F, 1.0F)
                     .sound(SoundType.GRAVEL)));
-    public static final RegistryObject<Block> BLOCO_AREIA_COMPACTADO = register("bloco_areia_compactado",
-            () -> new Block(BlockBehaviour.Properties.of(Material.SAND, MaterialColor.SAND)
-                    .strength(1.0F, 1.0F)
-                    .sound(SoundType.SAND)));
-    public static final RegistryObject<Block> BLOCO_AREIA_VERMELHA_COMPACTADO = register("bloco_areia_vermelha_compactado",
-            () -> new Block(BlockBehaviour.Properties.of(Material.SAND, MaterialColor.COLOR_ORANGE)
-                    .strength(1.0F, 1.0F)
-                    .sound(SoundType.SAND)));
-    public static final RegistryObject<Block> BLOCO_CASCALHO_COMPACTADO = register("bloco_cascalho_compactado",
-            () -> new Block(BlockBehaviour.Properties.of(Material.SAND, MaterialColor.STONE)
-                    .strength(1.2F, 1.0F)
-                    .sound(SoundType.GRAVEL)));
+    public static final RegistryObject<Block> IV_AREIA = register("4x_areia",
+            () -> new FallingBlock(BlockBehaviour.Properties.copy(Blocks.SAND)
+                    .strength(1.0F, 1.0F)));
+    public static final RegistryObject<Block> IV_AREIA_VERMELHA = register("4x_areia_vermelha",
+            () -> new FallingBlock(BlockBehaviour.Properties.copy(Blocks.RED_SAND)
+                    .strength(1.0F, 1.0F)));
+    public static final RegistryObject<Block> IV_CASCALHO = register("4x_cascalho",
+            () -> new FallingBlock(BlockBehaviour.Properties.copy(Blocks.GRAVEL)
+                    .strength(1.2F, 1.0F)));
 
 
 

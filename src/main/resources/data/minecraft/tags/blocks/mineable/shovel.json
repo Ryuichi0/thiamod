@@ -1,10 +1,10 @@
 {
   "replace": false,
   "values": [
-    "thiamod:bloco_terra_compactado",
-    "thiamod:bloco_areia_compactado",
-    "thiamod:bloco_areia_vermelha_compactado",
-    "thiamod:bloco_cascalho_compactado",
+    "thiamod:4x_terra",
+    "thiamod:4x_areia",
+    "thiamod:4x_areia_vermelha",
+    "thiamod:4x_cascalho"
 
   ]
 }

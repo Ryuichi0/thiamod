@@ -1,6 +1,0 @@
-{
-  "parent": "minecraft:block/cube_all",
-  "textures": {
-    "all": "thiamod:block/bloco_areia_vermelha_compactado"
-  }
-}

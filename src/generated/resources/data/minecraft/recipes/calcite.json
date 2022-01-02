@@ -2,11 +2,11 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "item": "thiamod:bloco_calcita_compactado"
+      "item": "thiamod:4x_calcita"
     }
   ],
   "result": {
     "item": "minecraft:calcite",
-    "count": 9
+    "count": 4
   }
 }
