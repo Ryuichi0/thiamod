@@ -2,11 +2,11 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "item": "thiamod:4x_terra"
+      "item": "thiamod:8x_terra"
     }
   ],
   "result": {
     "item": "minecraft:dirt",
-    "count": 4
+    "count": 8
   }
 }

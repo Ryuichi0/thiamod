@@ -2,11 +2,11 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "item": "thiamod:4x_pedregulho"
+      "item": "thiamod:8x_pedregulho"
     }
   ],
   "result": {
     "item": "minecraft:cobblestone",
-    "count": 4
+    "count": 8
   }
 }

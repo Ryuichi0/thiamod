@@ -2,11 +2,11 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "item": "thiamod:4x_calcita"
+      "item": "thiamod:8x_calcita"
     }
   ],
   "result": {
     "item": "minecraft:calcite",
-    "count": 4
+    "count": 8
   }
 }

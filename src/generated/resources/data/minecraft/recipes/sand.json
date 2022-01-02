@@ -2,11 +2,11 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "item": "thiamod:4x_areia"
+      "item": "thiamod:8x_areia"
     }
   ],
   "result": {
     "item": "minecraft:sand",
-    "count": 4
+    "count": 8
   }
 }

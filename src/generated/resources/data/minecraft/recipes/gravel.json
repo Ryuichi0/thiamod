@@ -2,11 +2,11 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "item": "thiamod:4x_cascalho"
+      "item": "thiamod:8x_cascalho"
     }
   ],
   "result": {
     "item": "minecraft:gravel",
-    "count": 4
+    "count": 8
   }
 }

@@ -14,17 +14,17 @@ public class ModBlockStateProvider extends BlockStateProvider {
     @Override
     protected void registerStatesAndModels() {
         simpleBlock(ModBlocks.BLOCO_DE_BATATA.get());
-        simpleBlock(ModBlocks.IV_PEDREGULHO.get());
-        simpleBlock(ModBlocks.IV_PEDREGULHO_ARDOSIA.get());
-        simpleBlock(ModBlocks.IV_TUFO.get());
-        simpleBlock(ModBlocks.IV_GRANITO.get());
-        simpleBlock(ModBlocks.IV_DIORITO.get());
-        simpleBlock(ModBlocks.IV_ARDESITO.get());
-        simpleBlock(ModBlocks.IV_CALCITA.get());
-        simpleBlock(ModBlocks.IV_TERRA.get());
-        simpleBlock(ModBlocks.IV_AREIA.get());
-        simpleBlock(ModBlocks.IV_AREIA_VERMELHA.get());
-        simpleBlock(ModBlocks.IV_CASCALHO.get());
+        simpleBlock(ModBlocks.VIII_PEDREGULHO.get());
+        simpleBlock(ModBlocks.VIII_PEDREGULHO_ARDOSIA.get());
+        simpleBlock(ModBlocks.VIII_TUFO.get());
+        simpleBlock(ModBlocks.VIII_GRANITO.get());
+        simpleBlock(ModBlocks.VIII_DIORITO.get());
+        simpleBlock(ModBlocks.VIII_ARDESITO.get());
+        simpleBlock(ModBlocks.VIII_CALCITA.get());
+        simpleBlock(ModBlocks.VIII_TERRA.get());
+        simpleBlock(ModBlocks.VIII_AREIA.get());
+        simpleBlock(ModBlocks.VIII_AREIA_VERMELHA.get());
+        simpleBlock(ModBlocks.VIII_CASCALHO.get());
 
 
     }

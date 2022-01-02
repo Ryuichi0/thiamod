@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "thiamod:block/8x_pedregulho_ardosia"
+  }
+}

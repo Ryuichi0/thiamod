@@ -2,11 +2,11 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "item": "thiamod:4x_tufo"
+      "item": "thiamod:8x_tufo"
     }
   ],
   "result": {
     "item": "minecraft:tuff",
-    "count": 4
+    "count": 8
   }
 }

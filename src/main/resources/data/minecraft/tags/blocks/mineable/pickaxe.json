@@ -1,13 +1,13 @@
 {
   "replace": false,
   "values": [
-    "thiamod:4x_pedregulho",
-    "thiamod:4x_pedregulho_ardosia",
-    "thiamod:4x_tufo",
-    "thiamod:4x_granito",
-    "thiamod:4x_diorito",
-    "thiamod:4x_ardesito",
-    "thiamod:4x_calcita"
+    "thiamod:8x_pedregulho",
+    "thiamod:8x_pedregulho_ardosia",
+    "thiamod:8x_tufo",
+    "thiamod:8x_granito",
+    "thiamod:8x_diorito",
+    "thiamod:8x_ardesito",
+    "thiamod:8x_calcita"
 
   ]
 }

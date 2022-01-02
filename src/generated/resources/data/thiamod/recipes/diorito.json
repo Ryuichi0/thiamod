@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "thiamod:8x_diorito"
+    }
+  ],
+  "result": {
+    "item": "minecraft:diorite",
+    "count": 8
+  }
+}

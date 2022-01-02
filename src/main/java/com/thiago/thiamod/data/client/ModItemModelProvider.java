@@ -16,17 +16,17 @@ public class ModItemModelProvider extends ItemModelProvider {
     protected void registerModels() {
         //Blocos
         withExistingParent("bloco_de_batata", modLoc("block/bloco_de_batata"));
-        withExistingParent("4x_pedregulho", modLoc("block/4x_pedregulho"));
-        withExistingParent("4x_pedregulho_ardosia", modLoc("block/4x_pedregulho_ardosia"));
-        withExistingParent("4x_tufo", modLoc("block/4x_tufo"));
-        withExistingParent("4x_granito", modLoc("block/4x_granito"));
-        withExistingParent("4x_diorito", modLoc("block/4x_diorito"));
-        withExistingParent("4x_ardesito", modLoc("block/4x_ardesito"));
-        withExistingParent("4x_calcita", modLoc("block/4x_calcita"));
-        withExistingParent("4x_terra", modLoc("block/4x_terra"));
-        withExistingParent("4x_areia", modLoc("block/4x_areia"));
-        withExistingParent("4x_areia_vermelha", modLoc("block/4x_areia_vermelha"));
-        withExistingParent("4x_cascalho", modLoc("block/4x_cascalho"));
+        withExistingParent("8x_pedregulho", modLoc("block/8x_pedregulho"));
+        withExistingParent("8x_pedregulho_ardosia", modLoc("block/8x_pedregulho_ardosia"));
+        withExistingParent("8x_tufo", modLoc("block/8x_tufo"));
+        withExistingParent("8x_granito", modLoc("block/8x_granito"));
+        withExistingParent("8x_diorito", modLoc("block/8x_diorito"));
+        withExistingParent("8x_ardesito", modLoc("block/8x_ardesito"));
+        withExistingParent("8x_calcita", modLoc("block/8x_calcita"));
+        withExistingParent("8x_terra", modLoc("block/8x_terra"));
+        withExistingParent("8x_areia", modLoc("block/8x_areia"));
+        withExistingParent("8x_areia_vermelha", modLoc("block/8x_areia_vermelha"));
+        withExistingParent("8x_cascalho", modLoc("block/8x_cascalho"));
 
 
         ModelFile itemGenerated = getExistingFile(mcLoc("item/generated"));

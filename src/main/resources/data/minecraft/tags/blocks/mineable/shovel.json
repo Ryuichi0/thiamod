@@ -1,10 +1,10 @@
 {
   "replace": false,
   "values": [
-    "thiamod:4x_terra",
-    "thiamod:4x_areia",
-    "thiamod:4x_areia_vermelha",
-    "thiamod:4x_cascalho"
+    "thiamod:8x_terra",
+    "thiamod:8x_areia",
+    "thiamod:8x_areia_vermelha",
+    "thiamod:8x_cascalho"
 
   ]
 }
